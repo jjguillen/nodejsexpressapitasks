@@ -15,7 +15,7 @@ mongoose.connect(urlMongoAtlas,
 
             //Abrimos el servidor Express si se ha podido conectar a Mongo
             app.listen(port, () => {
-                console.log("Servidor funcionando ok");
+                console.log("Servidor funcionando ok en "+port);
             });
         }
     } catch (err) {
