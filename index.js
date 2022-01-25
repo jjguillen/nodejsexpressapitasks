@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const app = require("./app");
-const port = 3000;
+const port = process.env.PORT || 3000;
 const urlMongoAtlas = "mongodb+srv://admin:p7Cx4JSEe3WZeB4@cluster0.qmwhh.mongodb.net/test";
 
 mongoose.connect(urlMongoAtlas, 
